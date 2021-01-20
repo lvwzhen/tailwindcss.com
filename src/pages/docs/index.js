@@ -98,23 +98,21 @@ export default function DocsLandingPage() {
   return (
     <div className="px-4 sm:px-6 xl:px-8 pt-10 pb-16">
       <h1 className="text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-4">
-        Getting started with Tailwind CSS
+        开始使用 Tailwind CSS
       </h1>
-      <p className="text-2xl tracking-tight mb-10">
-        Learn Tailwind the way that best matches your learning style.
-      </p>
+      <p className="text-2xl tracking-tight mb-10">请选择最适合你的方式学习 Tailwind CSS</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8">
         <section className="flex">
           <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
             <div className={`w-full flex md:flex-col bg-gradient-to-br ${gradients.violet[0]}`}>
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <h2 className="text-xl font-semibold mb-2 text-shadow">Read the docs</h2>
+                <h2 className="text-xl font-semibold mb-2 text-shadow">阅读文档</h2>
                 <p className="font-medium text-violet-100 text-shadow mb-4">
-                  Learn how to get Tailwind set up in your project.
+                  学习如何在你的项目中设置Tailwind
                 </p>
                 <Link href="/docs/installation">
                   <a className="mt-auto bg-violet-800 bg-opacity-50 hover:bg-opacity-75 transition-colors duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">
-                    Start learning
+                    开始学习
                   </a>
                 </Link>
               </div>
@@ -134,15 +132,15 @@ export default function DocsLandingPage() {
           <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
             <div className={`w-full flex md:flex-col bg-gradient-to-br ${gradients.pink[0]}`}>
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <h2 className="text-xl font-semibold mb-2 text-shadow">Try it in the browser</h2>
+                <h2 className="text-xl font-semibold mb-2 text-shadow">在浏览器中运行它</h2>
                 <p className="font-medium text-rose-100 text-shadow mb-4">
-                  Build something with Tailwind in our online playground.
+                  在浏览器沙盒中创建Tailwind的案例
                 </p>
                 <a
                   href="https://play.tailwindcss.com/"
                   className="mt-auto bg-rose-900 bg-opacity-50 hover:bg-opacity-75 transition-colors duration-200 rounded-xl font-semibold py-2 px-4 inline-flex"
                 >
-                  Start building
+                  开始创建
                 </a>
               </div>
               <div className={`${styles.image} relative md:pl-6 xl:pl-8 hidden sm:block`}>
@@ -156,13 +154,13 @@ export default function DocsLandingPage() {
           <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
             <div className={`w-full flex md:flex-col bg-gradient-to-br ${gradients.amber[0]}`}>
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <h2 className="text-xl font-semibold mb-2 text-shadow">Watch the screencasts</h2>
+                <h2 className="text-xl font-semibold mb-2 text-shadow">观看视频教程</h2>
                 <p className="font-medium text-amber-100 text-shadow mb-4">
-                  Learn more about Tailwind directly from the team on our channel.
+                  在我们团队的YouTube频道中学习Tailwind
                 </p>
                 <Link href="https://www.youtube.com/tailwindlabs">
                   <a className="mt-auto bg-amber-900 bg-opacity-50 hover:bg-opacity-75 transition-colors duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">
-                    Start watching
+                    开始观看
                   </a>
                 </Link>
               </div>
